@@ -5,6 +5,10 @@ import sys
 import zipfile
 import shutil
 import os
+import setupadd
+
+setupadd.install()
+os.system("cls")
 
 class OpenZIP(QtWidgets.QMainWindow):
     def __init__(self):
